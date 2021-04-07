@@ -314,6 +314,10 @@ aside p {
   margin-top: 5px;
 }
 
+.rating-inactive {
+  color: var(--color_back);
+}
+
 .hosts {
   margin-top: 31px;
   margin-left: 1px;
