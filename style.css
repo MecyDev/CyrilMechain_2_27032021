@@ -192,6 +192,10 @@ a {
   background-color: var(--color_s);
 }
 
+.btn-filter:focus {
+  background-color: var(--color_s);
+}
+
 .btn-filter-icon {
   padding: 14px 13px;
   background-color: var(--color_s);
