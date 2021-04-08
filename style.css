@@ -377,7 +377,38 @@ footer ul {
   }
 
   .card-infos {
-    width: 43%;
+    width: 41%;
+  }
+
+  .btn-search i {
+    display: none;
+  }
+
+  .visible {
+    display: unset;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card img {
+    width: 350px;
+  }
+
+  .card-infos {
+    width: 44%;
+  }
+
+  .search-container {
+    width: 416px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+
+  .btn-search {
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 16px;
+    border-radius: 0 15px 15px 0;
   }
 }
 
@@ -466,14 +497,6 @@ footer ul {
     font-size: 1.8rem;
     padding: 16px;
     border-radius: 0 15px 15px 0;
-  }
-
-  .btn-search i {
-    display: none;
-  }
-
-  .visible {
-    display: unset;
   }
 
   .margin {
