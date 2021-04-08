@@ -572,6 +572,14 @@ footer ul {
     padding: 0;
   }
 
+  .card img {
+    width: 128px;
+  }
+
+  .card-infos {
+    width: 179px;
+  }
+
   .un {
     width: 304px;
     height: 445px;
