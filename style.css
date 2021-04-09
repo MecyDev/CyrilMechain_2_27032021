@@ -390,6 +390,7 @@ footer ul {
 
   .card-infos {
     width: 41%;
+    margin-left: 20px;
   }
 
   .btn-search i {
@@ -450,10 +451,6 @@ footer ul {
     flex-wrap: wrap;
   }
 
-  .card img {
-    width: 350px;
-  }
-
   .card-infos {
     width: 44%;
   }
@@ -477,13 +474,13 @@ footer ul {
     border-radius: 15px;
   }
 
-  aside .card-container {
+  /*aside .card-container {
     width: 100%;
     height: 221px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-  }
+  }*/
 
   aside .list {
     padding-bottom: 0;
@@ -495,8 +492,10 @@ footer ul {
   }
 
   .card img {
-    width: 160px;
-    height: 211px;
+    /*width: 160px;
+    height: 211px;*/
+    width: 128px;
+    height: 136px;
   }
 
   .hosts .card {
@@ -508,9 +507,13 @@ footer ul {
   }
 
   aside .card-infos {
-    width: 179px;
+    /*width: 179px;
     margin-top: 35px;
-    margin-left: 25px;
+    margin-left: 25px;*/
+    width: 179px;
+    height: 140px;
+    margin-top: -3px;
+    margin-left: 20px;
   }
 
   .hosts {
@@ -584,15 +587,21 @@ footer ul {
   }
 
   .hot-margin-top {
-    margin-top: 30px;
+    margin-top: -8px;
     margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  /*.card-container-host {
-    width: 48%;
-  }*/
+  .card img {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card img {
+    width: 250px;
+  }
 }
 
 /**************************************desktop*******************************************/
@@ -724,7 +733,7 @@ footer ul {
   }
 
   .hot-margin-top {
-    margin-top: 0;
+    margin-top: -30px;
   }
 
   aside .container {
