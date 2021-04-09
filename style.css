@@ -232,6 +232,10 @@ aside {
   background-color: var(--color_back);
 }
 
+aside .container {
+  width: 90%;
+}
+
 aside p {
   font-size: 1.4rem;
 }
@@ -325,6 +329,10 @@ aside p {
 .hosts {
   margin-top: 31px;
   margin-left: 1px;
+}
+
+.hosts .container {
+  width: 90%;
 }
 
 .hosts h1 {
@@ -520,10 +528,6 @@ footer ul {
     border-radius: 15px;
   }
 
-  .hosts h1 {
-    margin-left: 4.5%;
-  }
-
   .hosts .list {
     display: flex;
     flex-wrap: wrap;
@@ -575,7 +579,7 @@ footer ul {
   }
 
   header {
-    width: 94%;
+    width: 91.5%;
     margin: auto;
     padding-top: 0;
     margin-top: -5px;
@@ -622,7 +626,7 @@ footer ul {
   }
 
   .container {
-    width: 93%;
+    width: 91%;
   }
 
   .hosts,
@@ -630,8 +634,12 @@ footer ul {
     padding-top: 38px;
   }
 
+  .hosts .container {
+    width: 91%;
+  }
+
   .activities .container {
-    width: 100%;
+    width: 97%;
   }
 
   .search {
@@ -655,6 +663,10 @@ footer ul {
     border-radius: 0 15px 15px 0;
   }
 
+  .btn-filter-text {
+    font-size: 1.8rem;
+  }
+
   .margin {
     margin-top: 22px;
     margin-left: 0;
@@ -664,15 +676,15 @@ footer ul {
   .desktop {
     display: flex;
     margin-top: 8px;
-    margin-left: 4px;
   }
 
   .filters {
-    width: 66%;
-    margin-right: 27.5%;
+    width: 65%;
+    margin-right: 29%;
   }
 
   .my-flex-desk {
+    width: 93.7%;
     display: flex;
     justify-content: space-between;
     padding-right: 350px;
@@ -682,6 +694,10 @@ footer ul {
     order: 2;
     width: 420px;
     border-radius: 15px;
+  }
+
+  aside .container {
+    width: 83%;
   }
 
   aside .card-container {
@@ -694,10 +710,6 @@ footer ul {
 
   aside .card-container:last-child {
     margin-bottom: 0;
-  }
-
-  aside h1 {
-    margin-left: 18px;
   }
 
   aside .list {
@@ -717,20 +729,20 @@ footer ul {
 
   .hosts {
     order: 1;
-    width: 882px;
+    width: 878px;
     background-color: var(--color_back);
     margin: 0;
     border-radius: 15px;
   }
 
   .hosts h1 {
-    margin-left: 12px;
+    margin-left: 0;
   }
 
   .hosts .list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 15px;
   }
 
@@ -740,7 +752,6 @@ footer ul {
   }
 
   .activities h1 {
-    margin-left: 15px;
     margin-top: 25px;
   }
 
@@ -751,7 +762,7 @@ footer ul {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: space-around;
+    align-content: space-between;
   }
 
   .activities .card-container {
@@ -845,7 +856,7 @@ footer ul {
   }
 
   .plus {
-    margin-left: 12px;
+    margin-left: 0;
     margin-top: -15px;
     margin-bottom: 45px;
   }
