@@ -685,6 +685,7 @@ footer ul {
 
   .my-flex-desk {
     width: 93.7%;
+    margin-top: -20px;
     display: flex;
     justify-content: space-between;
     padding-right: 350px;
