@@ -240,10 +240,6 @@ aside p {
   font-size: 1.4rem;
 }
 
-.hot-icon {
-  padding: 38px 1px;
-}
-
 .list {
   margin-top: -10px;
   padding-bottom: 25px;
@@ -381,6 +377,10 @@ footer ul {
   padding-bottom: 10px;
 }
 
+.hot-margin-top {
+  padding-top: 37px;
+  margin-bottom: 34px;
+}
 /************************************Media Queries*****************************************/
 
 @media screen and (min-width: 576px) {
@@ -444,7 +444,6 @@ footer ul {
 
 @media screen and (min-width: 768px) {
   main {
-    /*width: 95%;*/
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -486,12 +485,7 @@ footer ul {
     margin-bottom: 30px;
   }
 
-  aside h1 {
-    margin-left: -1%;
-  }
-
   aside .list {
-    margin-top: -15px;
     padding-bottom: 0;
   }
 
@@ -524,16 +518,19 @@ footer ul {
     width: 51%;
     background-color: var(--color_back);
     margin: 0;
-    padding-top: 48px;
+    padding-top: 30px;
     border-radius: 15px;
   }
 
   .hosts .list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 33px;
+    justify-content: space-between;
     padding-bottom: 0;
+  }
+
+  .activities .container {
+    width: 98%;
   }
 
   .activities {
@@ -541,9 +538,22 @@ footer ul {
     order: 3;
   }
 
+  .activities .list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .activities .card-container {
+    padding: 0;
+  }
+
   .card-container-host {
-    width: 170px;
-    height: 220px;
+    /*width: 170px;*/
+    width: 48%;
+    height: auto;
+    /*height: 220px;*/
     margin-bottom: 30px;
   }
 
@@ -568,6 +578,21 @@ footer ul {
   .activities .container {
     padding-top: 38px;
   }
+
+  .card-container-activities {
+    width: 49%;
+  }
+
+  .hot-margin-top {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /*.card-container-host {
+    width: 48%;
+  }*/
 }
 
 /**************************************desktop*******************************************/
@@ -629,6 +654,7 @@ footer ul {
     width: 91%;
   }
 
+  aside,
   .hosts,
   .activities .container {
     padding-top: 38px;
@@ -697,6 +723,10 @@ footer ul {
     border-radius: 15px;
   }
 
+  .hot-margin-top {
+    margin-top: 0;
+  }
+
   aside .container {
     width: 83%;
   }
@@ -711,10 +741,6 @@ footer ul {
 
   aside .card-container:last-child {
     margin-bottom: 0;
-  }
-
-  aside .list {
-    margin-top: -15px;
   }
 
   aside .card-infos {
@@ -764,10 +790,6 @@ footer ul {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-between;
-  }
-
-  .activities .card-container {
-    padding: 0;
   }
 
   .card img {
