@@ -432,7 +432,17 @@ footer ul {
   }
 }
 
+/**************************768px***************************************/
+
 @media screen and (min-width: 768px) {
+  main {
+    /*width: 95%;*/
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
   .card img {
     width: 350px;
   }
@@ -453,7 +463,110 @@ footer ul {
     padding: 16px;
     border-radius: 0 15px 15px 0;
   }
+
+  aside {
+    order: 2;
+    width: 45%;
+    border-radius: 15px;
+  }
+
+  aside .card-container {
+    width: 100%;
+    height: 221px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  aside h1 {
+    margin-left: -1%;
+  }
+
+  aside .list {
+    margin-top: -15px;
+    padding-bottom: 0;
+  }
+
+  aside .adjust {
+    margin-top: -20px;
+    margin-right: 8px;
+  }
+
+  .card img {
+    width: 160px;
+    height: 211px;
+  }
+
+  .hosts .card {
+    height: 200px;
+  }
+
+  .hosts .card img {
+    height: 100px;
+  }
+
+  aside .card-infos {
+    width: 179px;
+    margin-top: 35px;
+    margin-left: 25px;
+  }
+
+  .hosts {
+    order: 1;
+    width: 51%;
+    background-color: var(--color_back);
+    margin: 0;
+    padding-top: 48px;
+    border-radius: 15px;
+  }
+
+  .hosts h1 {
+    margin-left: 4.5%;
+  }
+
+  .hosts .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 33px;
+    padding-bottom: 0;
+  }
+
+  .activities {
+    width: 100%;
+    order: 3;
+  }
+
+  .card-container-host {
+    width: 170px;
+    height: 220px;
+    margin-bottom: 30px;
+  }
+
+  .card-infos-hosts {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .plus {
+    margin-left: 12px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+
+  aside .adjust {
+    margin-top: 3px;
+    margin-right: -12px;
+  }
+
+  .activities .container {
+    padding-top: 38px;
+  }
 }
+
+/**************************************desktop*******************************************/
 
 @media screen and (min-width: 1400px) {
   body {
@@ -591,6 +704,12 @@ footer ul {
     margin-top: -15px;
   }
 
+  aside .card-infos {
+    width: 179px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
   aside .adjust {
     margin-top: -20px;
     margin-right: 8px;
@@ -612,6 +731,7 @@ footer ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 15px;
   }
 
   .activities {
@@ -640,10 +760,24 @@ footer ul {
 
   .card img {
     width: 128px;
+    height: 100%;
   }
 
   .card-infos {
     width: 179px;
+  }
+
+  .hosts .card {
+    height: 0;
+  }
+
+  .hosts .card img {
+    height: 115px;
+  }
+
+  .card-infos-hosts {
+    height: 0;
+    display: block;
   }
 
   .un {
