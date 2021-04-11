@@ -1,0 +1,18 @@
+footer {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  background-color: var(--color_back);
+}
+
+footer h2 {
+  margin-bottom: 20px;
+}
+
+footer ul {
+  padding-bottom: 10px;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
