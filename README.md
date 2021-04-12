@@ -1,1 +1,1 @@
-# Projet 2 pour Open Class Rooms
+# Projet 2 - Reservia - Open Class Rooms
