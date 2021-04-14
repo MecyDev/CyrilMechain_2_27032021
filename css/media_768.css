@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) {
+  header {
+    margin-left: -5px;
+  }
+
   main {
     margin: auto;
     display: flex;
@@ -20,8 +24,6 @@
   }
 
   .card img {
-    /*width: 160px;
-      height: 211px;*/
     width: 128px;
     height: 136px;
   }
@@ -39,11 +41,6 @@
   aside .list {
     padding-bottom: 0;
   }
-
-  /*aside .adjust {
-    margin-top: -20px;
-    margin-right: 8px;
-  }*/
 
   aside .adjust {
     margin-top: 3px;
@@ -128,5 +125,9 @@
 
   .activities .card-container {
     padding: 0;
+  }
+
+  .footer-content {
+    width: 240px;
   }
 }

@@ -3,26 +3,37 @@
   margin-top: 13px;
 }
 
-.btn-filter {
-  border-top: 2px solid var(--color_back);
-  border-bottom: 2px solid var(--color_back);
-  border-right: 2px solid var(--color_back);
-  border-radius: 30px 30px 30px 30px;
+.filter-title {
+  font-size: 1.8rem;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.btn-filter-container {
+  margin-right: 10px;
   margin-bottom: 11px;
 }
 
-.btn-filter-text {
-  color: black;
-  padding-left: 7px;
-  padding-right: 16px;
+.btn-filter {
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 14px 15px 14px 5px;
+  border-radius: 30px;
+  border: 2px solid var(--color_back);
 }
 
 .btn-filter-icon {
-  padding: 14px 13px;
+  position: relative;
+  left: -7px;
+  padding: 15px;
   background-color: var(--color_s);
   color: var(--color_m);
   border: 2px solid var(--color_s);
   border-radius: 50%;
+}
+
+.icon-size-correct {
+  padding: 14px 13px 14px 13px;
 }
 
 .btn-filter:hover {
@@ -31,8 +42,4 @@
 
 .btn-filter:focus {
   background-color: var(--color_s);
-}
-
-.adjust {
-  padding: 14px 15px;
 }

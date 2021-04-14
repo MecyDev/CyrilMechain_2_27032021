@@ -1,4 +1,9 @@
 @media screen and (min-width: 576px) {
+  header {
+    width: 95%;
+    margin-left: -12px;
+  }
+
   .my-flex-baseline {
     align-items: baseline;
   }
@@ -53,5 +58,9 @@
     color: var(--color_m);
     border-bottom: none;
     border-top: 3px solid var(--color_m);
+  }
+
+  .my-flex-desk {
+    justify-content: space-between;
   }
 }

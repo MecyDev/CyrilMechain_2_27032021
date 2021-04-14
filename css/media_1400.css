@@ -1,4 +1,4 @@
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1440px) {
   body {
     width: 1440px;
     margin: auto;
@@ -86,20 +86,6 @@
     font-size: 1.8rem;
     padding: 16px;
     border-radius: 0 15px 15px 0;
-  }
-
-  .desktop {
-    display: flex;
-    margin-top: 8px;
-  }
-
-  .filters {
-    width: 65%;
-    margin-right: 29%;
-  }
-
-  .btn-filter-text {
-    font-size: 1.8rem;
   }
 
   main {
@@ -286,10 +272,6 @@
   }
 
   .my-flex-desk {
-    width: 93.7%;
-    margin-top: -20px;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 350px;
+    margin-left: 45px;
   }
 }
