@@ -1,6 +1,7 @@
 @media screen and (min-width: 576px) {
   header {
     width: 95%;
+    margin-top: 0px;
     margin-left: -12px;
   }
 
@@ -40,14 +41,14 @@
 
   nav {
     width: 44%;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-right: 12px;
     order: 0;
   }
 
   nav li a {
     border-bottom: none;
-    padding-top: 0px;
+    padding-top: 40px;
   }
 
   nav li:nth-child(2) a {

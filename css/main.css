@@ -47,3 +47,7 @@ h3 {
 a {
   color: var(--color_m);
 }
+
+footer a {
+  color: black;
+}
