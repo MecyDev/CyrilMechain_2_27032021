@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/29403923/165180792-3a256146-642c-4b26-afdc-1162ea9f813f.png" alt="Oc_projet_02" />
 </div>
 
-# Projet Open Class Rooms #14 - ARGENTBANK
+# Projet Open Class Rooms #02 - Resevia
 
 This is project 02 of the Open Class Rooms Front-End course. The goal is to integrate the design of a holiday hotel booking site called Reservia with HTML and pure CSS only.
 
