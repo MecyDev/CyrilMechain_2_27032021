@@ -4,7 +4,7 @@
 
 # Projet Open Class Rooms #02 - Resevia
 
-This is project 02 of the Open Class Rooms Front-End course. The goal is to integrate the design of a holiday hotel booking site called Reservia with HTML and pure CSS only.
+This is project 02 of the Open Class Rooms Front-End course. The goal is to integrate the design of a holiday hotel booking site called Reservia with HTML, pure CSS only and and must be responsive.
 
 ## Demo
 
@@ -16,12 +16,4 @@ This project is developed with:
 
 - HTML5
 - CSS
-
-## Get the repo
-
-Clone the project
-
-```bash
-  git clone https://github.com/MecyDev/CyrilMechain_14_21-02-2022 myDirectory
-```
 
