@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="" alt="Oc_projet_02" />
+  <img src="https://user-images.githubusercontent.com/29403923/165180792-3a256146-642c-4b26-afdc-1162ea9f813f.png" alt="Oc_projet_02" />
 </div>
 
 # Projet Open Class Rooms #14 - ARGENTBANK
@@ -8,7 +8,7 @@ This is project 02 of the Open Class Rooms Front-End course. The goal is to inte
 
 ## Demo
 
-https://blissful-booth-9194b7.netlify.app/
+[Reservia](https://blissful-booth-9194b7.netlify.app/)
 
 ## Technologies
 
